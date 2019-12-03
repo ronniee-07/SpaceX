@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-color: black;
+  overflow: hidden;
+  color:white;
+}
+
+.mygroup{
+  width: 800px;
+  height: 600px;
+  overflow: auto;
+}
+
+.container::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.mypost{
+  margin-top:50px;
+  width: 800px;
+  height: 400px;
+  overflow: auto;
+}
